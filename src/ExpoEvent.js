@@ -24,8 +24,7 @@ const ExpoEvent = ({navigation,route}) => {
 
 
 const hardwareBackPress=()=>{
-  // if (webviewref.current) webviewref.current.goBack()
-  
+   webviewref.current.goBack()
 }
 
 
